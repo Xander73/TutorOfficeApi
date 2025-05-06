@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout Source') {
             steps {
-                git branch: 'master', url: 'https://github.com/yourusername/your-repo.git'
+                git branch: 'master', url: 'https://github.com/Xander73/TutorOfficeApi.git'
             }
         }
 
