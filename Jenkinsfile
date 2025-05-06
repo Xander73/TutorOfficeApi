@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = 'tutor-office-api'
         CONTAINER_NAME = 'tutor-office-container'
-        HOST_PORT = '8080'         // порт на хосте
+        HOST_PORT = '8081'         // порт на хосте
         CONTAINER_PORT = '80'      // порт внутри контейнера, если твой API слушает 80
     }
 
